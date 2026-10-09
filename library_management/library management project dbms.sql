@@ -198,6 +198,12 @@ SELECT
 FROM BOOK
 ORDER BY Price DESC;
 
+SELECT
+    Book_ID,
+    Title,
+    Price,
+    Category
+FROM BOOK
 ORDER BY Price ASC;
 
 INSERT INTO BOOK
